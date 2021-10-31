@@ -1,6 +1,6 @@
 ## 11-HTPASSWD FILE
 ### How to reproduce :
-After using dirsearch to search for the directroys and files in the url
+After using dirsearch to search for the directories and files in the url
 `python3 dirsearch.py -u http://10.11.100.7/`
 and we found this paths:
 `http://10.11.100.7/robots.txt`

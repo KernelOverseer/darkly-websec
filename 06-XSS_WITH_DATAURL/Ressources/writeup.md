@@ -3,9 +3,9 @@
 if we click to nsa image on the home page
 we get redirected to this page
 `http://10.11.100.7/?page=media&src=nsa`
-we can pass any data by using dataurl and it will be taked as source of the img
-so we can pass any java script code in to many differnt format
-the best way is encode as base64
+we can pass any data by using dataurl and it will be taken as source of the img
+so we can pass any javascript code in to many different formats
+the best way is to encode it as base64
 `http://10.11.100.7/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdCcpPC9zY3JpcHQ+`
 and we get the flag.
 ### How to Fix :

@@ -1,7 +1,7 @@
 ## 8- XSS FEEDBACK
 ### How to reproduce :
 We see on the feedback page that name and comment that you submit will be displayed.
-So we think about imbedding javascript code, in the message so it will be executed whenever someone
+So we think about embedding javascript code, in the message so it will be executed whenever someone
 opens that page.
 so we send `<body onload="alert(1)"/>a` in the comment field
 and we get our flag.

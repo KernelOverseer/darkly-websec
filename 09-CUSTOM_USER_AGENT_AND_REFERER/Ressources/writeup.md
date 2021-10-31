@@ -2,7 +2,7 @@
 ### How to reproduce :
 in this page:
 `http://10.11.100.7/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c`
-source code we found some interessed comments:
+source code we found some interesting comments:
 `You must cumming from : "https://www.nsa.gov/" to go to the next step` and `Let's use this browser : "ft_bornToSec". It will help you a lot.`
 
 so send a request with curl with this specific user agent and referer:
